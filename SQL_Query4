@@ -1,0 +1,2 @@
+SELECT provider_name  FROM `bigquery-public-data.medicare.outpatient_charges_2014`
+WHERE outpatient_services BETWEEN 300 AND 600;

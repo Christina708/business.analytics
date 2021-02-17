@@ -1,0 +1,3 @@
+SELECT * FROM `bigquery-public-data.moon_phases.moon_phases`
+WHERE phase='First Quarter'
+

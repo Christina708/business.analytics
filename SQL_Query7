@@ -1,0 +1,1 @@
+SELECT SUM (bottles_sold) AS total_bottlesold FROM `bigquery-public-data.iowa_liquor_sales.sales` LIMIT 10

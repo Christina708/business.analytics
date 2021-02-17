@@ -1,0 +1,1 @@
+SELECT region_name,SUM(deaths) AS total_deaths FROM `bigquery-public-data.covid19_italy.data_by_region`

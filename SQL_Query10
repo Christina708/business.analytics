@@ -1,0 +1,5 @@
+SELECT
+  ward_name,ward_code,date_of_call,time_of_call,property_type,num_pumps_attending
+FROM
+  `bigquery-public-data.london_fire_brigade.fire_brigade_service_calls`
+  WHERE num_pumps_attending>5

@@ -1,0 +1,9 @@
+SELECT
+  company,SUM(trip_miles) AS total_miles
+FROM
+  `bigquery-public-data.chicago_taxi_trips.taxi_trips`
+  WHERE company IS NOT NULL  
+GROUP BY 
+  company
+  ORDER BY
+  total_miles  DESC

@@ -1,0 +1,6 @@
+SELECT s.provider_id, c.provider_name
+FROM `bigquery-public-data.medicare.outpatient_charges_2014` s
+JOIN `bigquery-public-data.medicare.outpatient_charges_2013` c
+ON s.provider_id = c.provider_id
+ORDER BY provider_id
+LIMIT 100 

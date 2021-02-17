@@ -1,0 +1,1 @@
+SELECT * FROM `bigquery-public-data.covid19_italy.national_trends` WHERE   country='ITA' AND deaths > 5 
